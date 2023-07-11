@@ -9,6 +9,9 @@ print(num)
 print()
 Num=float(4)
 print(Num)
+print()
+print(str(10)+' '+'Shillings')
+
 #working with strings
 
 print('my name is brian')
