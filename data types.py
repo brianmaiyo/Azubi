@@ -5,21 +5,21 @@ print(type(c))
 
 #working with strings
 
-print("my name is brian")
+print('my name is brian')
 
 # adding variables
 
-law = ("Happy birthday my love")
+law = ('happy birthday my love')
 print(law)
 #showing the length of the characters
 print(len(law))
 
 #checking string
-law = ("Happy Birthday My Love")
+law = ('happy birthday my love')
 print('birthday' in law) #birthday is in law variable hence output is True 
 
 #upper and lower  cases
-law = ("happy birthday my love")
+law = ('happy birthday my love')
 print(law.upper())
 print(law.lower())
 
