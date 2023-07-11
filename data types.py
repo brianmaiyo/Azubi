@@ -49,6 +49,7 @@ print(d)
 print()
 
 #list
+#Stores anything and any type
 students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
 print(students_list)
 print()
@@ -87,3 +88,7 @@ students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Tere
 students_list.remove('Dennis')
 print(students_list)
 print()
+
+
+#arrays
+#arrays contain numerical datatype and must all be same datatype
