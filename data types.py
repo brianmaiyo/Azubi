@@ -34,36 +34,36 @@ print(d)
 
 
 #list
-students_list = ["brian",'Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
+students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
 print(students_list)
 
 #accessing list items
-students_list = ["brian",'Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
+students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
 print(students_list[-1])
 
 #ranges of indexes
-students_list = ["brian",'Joseph', 'Rafique','clarence','prince','Dennis'],'Terence'
+students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis'],'Terence'
 print(students_list[2:5])
 print(students_list[:5])
 
 #change list items
-students_list = ["brian",'Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
+students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
 students_list[5]='george'
 print(students_list)
 
 #insert into list
-students_list = ["brian",'Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
+students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
 students_list.insert(2,'Nelson')
 print(students_list)
 
 #appending
-students_list = ["brian",'Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
+students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
 students_list.append('Festus')
 print(students_list)
 
 
 #remove items from list
-students_list = ["brian",'Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
+students_list = ['brian','Joseph', 'Rafique','clarence','prince','Dennis', 'Terence']
 students_list.remove('Dennis')
 print(students_list)
 
