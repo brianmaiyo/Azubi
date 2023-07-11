@@ -27,18 +27,23 @@ print()
 law = ('happy birthday my love')
 print('birthday' in law) #birthday is in law variable hence output is True 
 print()
-#upper and lower  cases
+#upper and lower cases, capitalize and count
 law = ('happy birthday my love')
 print(law.upper())
 print(law.lower())
+print(law.capitalize()) #capitalizes the first letter of the sentence
+print(law.count("a"))   #counts the number of character 'a'
 print()
 #concatenation
 a = 'beautiful'
 b = 'day'
-c= a+" "+b
-print(c)
+c= a+' '+b
 #or
-d=f"{a} {b}"
+print(a,b)
+
+print(c)
+#or using custom string formatting
+d=f'{a} {b}'
 print(d)
 
 print()
