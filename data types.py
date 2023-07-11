@@ -7,8 +7,8 @@ print()
 num=int(4.2)
 print(num)
 print()
-Num=float(4)
-print(Num)
+Numb=float(4)
+print(Numb)
 print()
 print(str(10)+' '+'Shillings')
 
@@ -18,10 +18,12 @@ print('my name is brian')
 
 # adding variables
 
-law = ('happy birthday my love')
+merit=('happy birthday my love')
+law = ('happy birthday my love','hi')
 print(law)
-#showing the length of the characters
-print(len(law))
+# using len
+print(len(merit)) #showing the length of the characters
+print(len(law)) #getting number of items
 print()
 #checking string
 law = ('happy birthday my love')
@@ -49,6 +51,7 @@ print(d)
 print()
 
 #list
+#arrays contain numerical datatype and must all be same datatype
 #Stores anything and any type
 students_list = ['brian','Joseph', 'Rafique',10,'clarence','prince',1.0,'Dennis', 'Terence']
 print(students_list)
@@ -90,5 +93,20 @@ print(students_list)
 print()
 
 
-#arrays
-#arrays contain numerical datatype and must all be same datatype
+#dictionaries
+#stores data in key Value pairs and order not guaranteed
+name1 = {}
+name1['first']='brian'
+name1['last']= 'kipkosgei'
+print(name1)
+
+name2 = {}
+name2['first']='Mon'
+name2['last']= 'Ami'
+print(name2)
+
+people =[]
+people.append(name1)
+people.append(name2)
+people.append({'first' :'Bill', 'last': 'Gaither'})
+print(people)
