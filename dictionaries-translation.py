@@ -17,4 +17,4 @@ colors[english_input]=german_input
 print( colors)
 
 query = input('which color should be translated?: \n')
-print(f'The German word for {query} is {colors[query]}')kk
+print(f'The German word for {query} is {colors[query]}')
