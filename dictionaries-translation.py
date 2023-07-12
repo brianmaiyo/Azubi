@@ -15,6 +15,6 @@ german_input =input('Enter the corresponding color in German: \n')
 colors[english_input]=german_input
 
 print( colors)
-
+#translation for the user
 query = input('which color should be translated?: \n')
 print(f'The German word for {query} is {colors[query]}')
