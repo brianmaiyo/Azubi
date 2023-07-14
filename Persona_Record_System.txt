@@ -1,0 +1,13 @@
+Personal_Record_System
+|____Credentials/
+|   |-----username.txt
+|   |-----passwords.txt
+|   |-----email_addresses.txt
+|___notes/
+|   |----personal_notes.txt
+|   |----important_notes.txt
+|___backup
+|   |----backup_2023-06-13.zip
+|___|----backup_2023-06-20.zip  
+	 
+
